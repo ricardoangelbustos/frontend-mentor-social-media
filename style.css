@@ -277,6 +277,9 @@ input:checked + .slider:before {
 .boxes-dark{
     background-color: #252b43;
 }
+.dark-mode footer{
+    color: white;
+}
 @media (max-width: 985px){
     .right-header{
         width: 40%;
