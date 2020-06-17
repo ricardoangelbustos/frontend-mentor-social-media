@@ -274,6 +274,9 @@ input:checked + .slider:before {
 .dark-mode .right-header span{
     color: white;
 }
+.dark-mode .slider::before{
+    background-color: black;
+}
 .boxes-dark{
     background-color: #252b43;
 }
