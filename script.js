@@ -1,4 +1,5 @@
 function darkmode() {
+
     var element = document.body;
     element.classList.toggle("dark-mode");
 
@@ -41,7 +42,10 @@ function darkmode() {
     var element14 = document.getElementById("row-box8")
     element14.classList.toggle("boxes-dark");
 
-    var element15 = document.getElementsByTagName("H1")
-    element15.classList.toggle("white-color");
-
+    var text = document.getElementById("text");
+    if (text.innerHTML.match("Dark Mode")) {
+      text.innerHTML = "Light Mode";
+    } else {
+      text.innerHTML = "Dark Mode";
+    }
 }
